@@ -1,8 +1,12 @@
+from helpers import x, y
 def a():
-    print("hello from a")
+    return 55
 
 def b():
-    print("hello from b")
+    return 10 * 4
 
 def c(i: int):
-    print(f"you called c({i})")
+    if (i > 10):
+       x(i)
+    else:
+       return y(i)
